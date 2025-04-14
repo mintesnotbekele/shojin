@@ -1,4 +1,4 @@
-// components/ui/Logo.tsx
+
 import Image from "next/image";
 import logo from "@/assets/icons/shojin-logo.png" 
 

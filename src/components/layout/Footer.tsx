@@ -4,7 +4,7 @@ import logo from "@/assets/icons/shojin-logo2.png"
 import jinium from "@/assets/icons/jinium.png"
 export default function Footer() {
   return (
-    <footer className="bg-[#D6DDD5] text-[#D9D9D9] px-6 py-10 text-sm">
+    <footer className="bg-[#1F2521] text-[#D9D9D9] px-6 py-10 text-sm">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
         {/* Logo Section */}
         <div className="flex flex-col gap-2 items-start">

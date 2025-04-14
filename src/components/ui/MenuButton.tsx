@@ -11,7 +11,7 @@ export default function MenuButton() {
       onClick={() => setOpen(!open)}
       className="text-2xl md:hidden text-light focus:outline-none"
       aria-label="Toggle Menu"
-    >test
+    >
       <HiOutlineMenuAlt3 />
     </button>
   );
