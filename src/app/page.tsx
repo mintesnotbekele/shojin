@@ -9,6 +9,7 @@ import Products from "@/components/layout/Products";
 import QuoteBlock from "@/components/layout/QuoteBlock";
 
 import AboutGameSection from "@/components/layout/AboutGameSection";
+import HowToPlay from "@/components/layout/HowToPlay";
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
         <Hero />
         <AboutGameSection/>
         <QuoteBlock/>
+        <HowToPlay/>
         <Products/>
+        
         <Footer/>
       </main>
     </ThemeProvider>
