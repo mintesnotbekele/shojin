@@ -5,6 +5,13 @@ import abt1 from "@/assets/alphabets/abt1.png"
 import abt2 from "@/assets/alphabets/abt2.png"
 import abt3 from "@/assets/alphabets/abt3.png"
 
+
+import alph2 from "@/assets/alphabets/D01.png"
+import alph1 from "@/assets/alphabets/S10.png"
+import alph3 from "@/assets/alphabets/S11.png"
+
+import alph4 from "@/assets/alphabets/S11.png"
+
 const AboutGame = () => {
   return (
     <section className="bg-[#114348] text-white text-center px-6 py-12 relative">
@@ -21,8 +28,16 @@ const AboutGame = () => {
       </p>
 
       {/* Game Icon / Logo */}
-      <div className="mt-8 mb-6">
-        <span className="font-bold text-3xl tracking-widest select-none">ↃⱯXᴧƎ</span>
+      <div className="mt-8 mb-6 flex">
+       
+          
+          
+      <Image src={alph3} alt='alphabet charachter'/>
+      <Image src={alph2} alt='alphabet charachter'/>
+          
+          <Image src={alph1} alt='alphabet charachter'/>
+          <Image src={alph4} alt='alphabet charachter'/>
+        
       </div>
 
       {/* Buttons */}
