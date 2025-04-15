@@ -1,7 +1,6 @@
 // components/layout/Header.tsx
 import Logo from "@/components/ui/Logo";
 import MenuButton from "@/components/ui/MenuButton";
-import { FaHamburger } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
