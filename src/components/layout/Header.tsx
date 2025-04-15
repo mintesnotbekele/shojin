@@ -11,7 +11,7 @@ export default function Header() {
         <GiHamburgerMenu size={50} />
         <Logo />
       </div>
-      <div>test</div>
+     
       <nav className="hidden md:flex gap-6 text-sm">
         <a href="#search">Search</a>
         <a href="#login">Log In</a>
