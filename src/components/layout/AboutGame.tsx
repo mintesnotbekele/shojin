@@ -28,7 +28,7 @@ const AboutGame = () => {
       </p>
 
       {/* Game Icon / Logo */}
-      <div className="mt-8 mb-6 flex">
+      <div className="mt-8 mb-6 flex justify-center">
        
           
           
